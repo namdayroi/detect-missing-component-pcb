@@ -1,0 +1,9 @@
+C
+R 105
+R EEE
+R101
+R104
+diode
+ic 1
+ic 2
+transitor

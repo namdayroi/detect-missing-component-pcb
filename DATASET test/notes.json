@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "C"
+    },
+    {
+      "id": 1,
+      "name": "R 105"
+    },
+    {
+      "id": 2,
+      "name": "R EEE"
+    },
+    {
+      "id": 3,
+      "name": "R101"
+    },
+    {
+      "id": 4,
+      "name": "R104"
+    },
+    {
+      "id": 5,
+      "name": "diode"
+    },
+    {
+      "id": 6,
+      "name": "ic 1"
+    },
+    {
+      "id": 7,
+      "name": "ic 2"
+    },
+    {
+      "id": 8,
+      "name": "transitor"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}

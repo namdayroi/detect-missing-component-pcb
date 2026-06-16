@@ -32,7 +32,9 @@ The codebase has been refactored and consolidated into the following standard fi
 Since the physical PCB board under the camera can shift, rotate, or scale, the system uses **Anchor Points** (unique landmarks such as Micro USB ports or ICs) to dynamically align the live frame with the golden reference map.
 *   Matches anchors between YOLO detections and the reference JSON.
 *   Computes a $2 \times 3$ **Partial Affine Transformation Matrix** using RANSAC:
-    $$\begin{bmatrix} x_{det} \\ y_{det} \end{bmatrix} = M \cdot \begin{bmatrix} x_{ref} \\ y_{ref} \\ 1 \end{bmatrix}$$
+
+$$\begin{bmatrix} x_{det} \\\\ y_{det} \end{bmatrix} = M \cdot \begin{bmatrix} x_{ref} \\\\ y_{ref} \\\\ 1 \end{bmatrix}$$
+
 *   Aligns expected golden bboxes to current camera coordinate space.
 
 ### 2. Geometric Validation (Xác minh Hình học)

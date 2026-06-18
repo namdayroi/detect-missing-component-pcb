@@ -63,6 +63,11 @@ pip install ultralytics opencv-python numpy PyQt5 torch Pillow pyyaml
 
 ## 📖 How to Run (Hướng dẫn Sử dụng)
 
+> [!IMPORTANT]
+> **QUAN TRỌNG**: Bạn **BẮT BUỘC** phải chạy bước Tăng cường dữ liệu (Step 1) để chuẩn bị bộ dữ liệu mở rộng trước khi tiến hành Huấn luyện mô hình (Step 2). Việc này giúp tăng độ chính xác của mô hình YOLOv11 đối với bo mạch PCB thực tế.
+> 
+> **IMPORTANT**: You **MUST** run the Data Augmentation step (Step 1) to generate augmented training data before proceeding to Model Training (Step 2). This is critical for improving the accuracy of the YOLOv11 model on actual PCBs.
+
 ### Step 1: Augment your Dataset
 Run `data_augmentation.py` to expand your training images:
 ```bash
